@@ -47,6 +47,7 @@ body{
   border-radius: 10px;
   border: 0;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 
 .panel-dark.panel-colorful {
