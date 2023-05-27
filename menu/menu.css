@@ -12,8 +12,15 @@ body{
     font-size: 25px;
 }
 
+.badge-success {
+  background-color: rgb(43, 71, 49);
+  padding: 20px;
+}
+
+
+
 .container {
-    margin-top: 20px;
+    margin-top: 15px !important;
     width: 100% !important;
     height: 100% !important;
     display: flex;
