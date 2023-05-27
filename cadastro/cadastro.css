@@ -1,0 +1,170 @@
+/* Estilos gerais */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://img.freepik.com/fotos-gratis/cenario-de-produtos-naturais-fazenda-e-luz-solar_53876-143219.jpg?w=1380&t=st=1685167964~exp=1685168564~hmac=4623a93d645fee620d517f9e313194d8f43b1be9b04a12530a51e4c301dd0b60");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para telas menores */
+  @media (max-width: 767px) {
+    .card {
+      margin-bottom: 1rem;
+    }
+
+    .col-lg-6 {
+        width: 100% !important;
+      }
+  }
+  
+  /* Estilos para telas maiores */
+  @media (min-width: 768px) {
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 50vw;
+    }
+  
+    .col-lg-6 {
+      width: 80% !important;
+    }
+  
+    .text-center {
+      text-align: left;
+      width: 100%;
+    }
+
+    .form-group > label {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+
+    ::placeholder {
+        text-align: center;
+    }
+
+    select option[value="default"] {
+        text-align: center;
+    }
+  }
+  
+  /* Estilos específicos para campos do formulário */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
+  }
+  
+  .btn-primary:active {
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf;
+  }
+  
+  .btn-primary:disabled {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    opacity: .65;
+  }
+  
+  /* Outros estilos */
+  .h2 {
+    background-image: linear-gradient(to bottom, #498b49 50%, #649964 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .lead {
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 20px;
+    font-size: 25px !important;
+    font-weight: bold !important;
+  }
+  
+  .existe-conta {
+    justify-content: flex-start;
+    display: flex;
+  }
+  
+  .entrar {
+    color: rgb(9, 124, 34) !important;
+    text-decoration: none;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+
+  .mt-3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-start;
+    width: 100%;
+  }
+  
