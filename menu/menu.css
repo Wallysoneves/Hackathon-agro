@@ -9,7 +9,7 @@ body{
     background-image: linear-gradient(to bottom, #9ba89b 50%, #d9f5d9 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .container {
@@ -291,5 +291,17 @@ ol, ul {
 @media (max-width: 767px) {
   .sumir {
     display: none;
+  }
+
+  .container {
+    margin-top: 5.5rem;
+  }
+}
+
+@media (min-width: 767px) {
+ 
+  body {
+    width: 100vw;
+    height: 100vh;
   }
 }
