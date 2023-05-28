@@ -16,6 +16,27 @@ body{
   padding: 20px !important;
 }
 
+.container-fluid {
+    display: flex !important;
+    flex-wrap: inherit !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .la-arrow-left {
+    font-size: 25px;
+    color: #FFF;
+    margin-right: 30px;
+  }
+
+  .la-arrow-left:hover {
+    font-size: 25px;
+    color:rgb(43, 71, 49);
+    background-color: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
 /*profile*/
 .profile-sidebar {
     float: left;

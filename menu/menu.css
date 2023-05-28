@@ -27,6 +27,11 @@ body{
     flex-direction: column;
 }
 
+.cards {
+  color: #FFF;
+  text-decoration: none !important;
+}
+
 .card-zoom {
   transition: transform 0.3s ease;
 }
@@ -60,9 +65,10 @@ body{
   background-color: #448544;
   border-color: #f76c51;
   color: #fff;
+  text-decoration: none;
 }
 
-.la-seedling, .la-hand-holding-usd {
+.la-seedling, .la-hand-holding-usd, .la-plus {
   font-size: 85px;
 }
 
@@ -80,6 +86,7 @@ body{
 
 .panel-body {
   padding: 25px 20px;
+  color: #FFF;
 }
 
 .panel hr {

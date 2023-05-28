@@ -41,15 +41,15 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Nome do capim*</label>
-                                    <input class="form-control form-control-lg" type="text" id="cpf-input" name="cpf" placeholder="Digite o nome do capim">
+                                    <input class="form-control form-control-lg" type="text" id="capim-input" name="capim" placeholder="Digite o nome do capim">
                                 </div>
                                 <div class="form-group">
                                     <label>Área*</label>
-                                    <input class="form-control form-control-lg" type="email" name="email" placeholder="Digite a área em hectares">
+                                    <input class="form-control form-control-lg" type="number" name="email" placeholder="Digite a área em hectares">
                                 </div>
                                 <div class="form-group">
                                     <label>Produção*</label>
-                                    <input class="form-control form-control-lg" type="password" name="password" placeholder="Digite a produção Ton/MS/HA">
+                                    <input class="form-control form-control-lg" type="number" name="password" placeholder="Digite a produção Ton/MS/HA">
                                 </div>
                                 <div class="form-group bromatologica">
                                     <label>Análise Bromatologica*</label>
@@ -69,11 +69,11 @@
                                         <div class="m-sm-4">
                                             <form>
                                                 <div class="form-group">
-                                                    <label title="teste ahaha">PB*</label>
+                                                    <label title="Proteína Bruta">PB*</label>
                                                     <input class="form-control form-control-lg" type="number" name="name" placeholder="Digite o PB %">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label>NDT*</label>
+                                                    <label title="Nutriente digestiveis totais">NDT*</label>
                                                     <input class="form-control form-control-lg" type="number" name="name" placeholder="Digite o NDT %">
                                                 </div>
                                                 <div class="form-group">
@@ -120,28 +120,6 @@
             </div>
         </div>
     </div>
-
-    
-
-    <script>
-        $(document).ready(function() {
-            $('#cpf-input').mask('000.000.000-00');
-        });
-
-        const telefoneInput = document.getElementById('telefone-input');
-        const telefoneError = document.getElementById('telefone-error');
-
-        telefoneInput.addEventListener('input', function() {
-            const telefone = telefoneInput.value;
-            const telefoneRegex = /^\(\d{2}\)\s\d{4,5}-\d{4}$/;
-
-            if (telefoneRegex.test(telefone)) {
-                telefoneError.textContent = '';
-            } else {
-                telefoneError.textContent = 'Telefone inválido. Digite no formato (99) 99999-9999.';
-            }
-        });
-    </script>
 
 <div class="page-footer">
     <footer class="footer_area section_padding_130_0">
