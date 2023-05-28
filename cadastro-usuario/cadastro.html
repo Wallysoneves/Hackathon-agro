@@ -65,8 +65,7 @@
                                     <select class="form-select" aria-label="Default select example">
                                         <option selected>Tipo perfil</option>
                                         <option value="1">Produtor</option>
-                                        <option value="2">Sei lá</option>
-                                        <option value="3">teste</option>
+                                        <option value="2">Técnico</option>
                                     </select>
                                 </div>
 
@@ -77,7 +76,7 @@
                                     </label>
                                   </div>
                                 <div class="text-center mt-3">
-                                    <a href="../menu/menu.html" class="btn btn-lg btn-success">Finalizar</a>
+                                    <a href="../menu/menu.html" class="btn btn-lg btn-success">Cadastrar</a>
                                 </div>
                             </form>
                         </div>
@@ -90,20 +89,6 @@
     <script>
         $(document).ready(function() {
             $('#cpf-input').mask('000.000.000-00');
-        });
-
-        const telefoneInput = document.getElementById('telefone-input');
-        const telefoneError = document.getElementById('telefone-error');
-
-        telefoneInput.addEventListener('input', function() {
-            const telefone = telefoneInput.value;
-            const telefoneRegex = /^\(\d{2}\)\s\d{4,5}-\d{4}$/;
-
-            if (telefoneRegex.test(telefone)) {
-                telefoneError.textContent = '';
-            } else {
-                telefoneError.textContent = 'Telefone inválido. Digite no formato (99) 99999-9999.';
-            }
         });
     </script>
 </body>
