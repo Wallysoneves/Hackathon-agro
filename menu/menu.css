@@ -17,7 +17,17 @@ body{
   padding: 20px;
 }
 
+.exit {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 30px;
+}
 
+.exit:hover {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 30px;
+}
 
 .container {
     margin-top: 15px !important;
